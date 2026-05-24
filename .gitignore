@@ -1,0 +1,11 @@
+# Native bridge build output
+/native/bhaptics_bridge2/.deps/
+/native/bhaptics_bridge2/build/
+/reframework/plugins/bhaptics_bridge2.dll
+/reframework/plugins/bhaptics_bridge2.exp
+/reframework/plugins/bhaptics_bridge2.lib
+/releases/
+
+# Python cache files
+__pycache__/
+*.py[cod]

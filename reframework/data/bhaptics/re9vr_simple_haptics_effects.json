@@ -1,0 +1,276 @@
+{
+  "effects": [
+    {
+      "key": "RE9_SH_Startup",
+      "tact_file": "RE9_SH_Startup.tact",
+      "description": "Short confirmation pulse on the back and both sleeves.",
+      "trigger_description": "game script starts and bHaptics bridge registers effects",
+      "preview_shortcut": "0",
+      "cooldown": 1.0
+    },
+    {
+      "key": "RE9_SH_Pistol_Right",
+      "tact_file": "RE9_SH_Pistol_Right.tact",
+      "description": "Compact right-side handgun recoil on torso and right sleeve.",
+      "trigger_description": "handgun or revolver shot",
+      "preview_shortcut": "1",
+      "cooldown": 0.055
+    },
+    {
+      "key": "RE9_SH_Auto_Right",
+      "tact_file": "RE9_SH_Auto_Right.tact",
+      "description": "Fast automatic-fire tick biased to the right arm.",
+      "trigger_description": "SMG or automatic weapon fire",
+      "preview_shortcut": "2",
+      "cooldown": 0.035
+    },
+    {
+      "key": "RE9_SH_Shotgun_Right",
+      "tact_file": "RE9_SH_Shotgun_Right.tact",
+      "description": "Heavy right shoulder blast with recoil aftershock.",
+      "trigger_description": "shotgun or magnum shot",
+      "preview_shortcut": "3",
+      "cooldown": 0.12
+    },
+    {
+      "key": "RE9_SH_Rifle_Right",
+      "tact_file": "RE9_SH_Rifle_Right.tact",
+      "description": "Long-gun recoil through right shoulder and support sleeve.",
+      "trigger_description": "rifle or launcher shot",
+      "preview_shortcut": "4",
+      "cooldown": 0.09
+    },
+    {
+      "key": "RE9_SH_Melee_Swing_R",
+      "tact_file": "RE9_SH_Melee_Swing_R.tact",
+      "description": "Right-arm melee swing sweep with light torso brush.",
+      "trigger_description": "melee swing starts",
+      "preview_shortcut": "5",
+      "cooldown": 0.18
+    },
+    {
+      "key": "RE9_SH_Melee_Hit_R",
+      "tact_file": "RE9_SH_Melee_Hit_R.tact",
+      "description": "Right-arm impact punch into the vest.",
+      "trigger_description": "melee hit connects",
+      "preview_shortcut": "6",
+      "cooldown": 0.1
+    },
+    {
+      "key": "RE9_SH_Grenade",
+      "tact_file": "RE9_SH_Grenade.tact",
+      "description": "Left chest and sleeve pulse for throwable handling.",
+      "trigger_description": "grenade, flash, or other throwable fire/use",
+      "preview_shortcut": "7",
+      "cooldown": 0.35
+    },
+    {
+      "key": "RE9_SH_Holster_Hip",
+      "tact_file": "RE9_SH_Holster_Hip.tact",
+      "description": "Right hip draw/stow locator pulse.",
+      "trigger_description": "weapon changes while the hip holster zone is active",
+      "preview_shortcut": "8",
+      "cooldown": 0.45
+    },
+    {
+      "key": "RE9_SH_Holster_Shoulder",
+      "tact_file": "RE9_SH_Holster_Shoulder.tact",
+      "description": "Right shoulder longarm draw/stow sweep.",
+      "trigger_description": "longarm changes while the shoulder holster zone is active",
+      "preview_shortcut": "9",
+      "cooldown": 0.45
+    },
+    {
+      "key": "RE9_SH_Holster_Chest",
+      "tact_file": "RE9_SH_Holster_Chest.tact",
+      "description": "Left chest slot draw/stow pulse.",
+      "trigger_description": "weapon changes while the chest holster zone is active",
+      "preview_shortcut": "a",
+      "cooldown": 0.45
+    },
+    {
+      "key": "RE9_SH_Heal",
+      "tact_file": "RE9_SH_Heal.tact",
+      "description": "Healing pulse spreading from left sleeve into the torso.",
+      "trigger_description": "HP recovery or manual syringe heal succeeds",
+      "preview_shortcut": "b",
+      "cooldown": 1.0
+    },
+    {
+      "key": "RE9_SH_Player_Damage",
+      "tact_file": "RE9_SH_Player_Damage.tact",
+      "description": "Broad torso impact for player damage.",
+      "trigger_description": "player damage calculation or HP loss",
+      "preview_shortcut": "c",
+      "cooldown": 0.42
+    },
+    {
+      "key": "RE9_SH_Electric_Damage",
+      "tact_file": "RE9_SH_Electric_Damage.tact",
+      "description": "Alternating torso and sleeve crackle for electric damage.",
+      "trigger_description": "player damage with electric attack attribute",
+      "preview_shortcut": "d",
+      "cooldown": 0.9
+    },
+    {
+      "key": "RE9_SH_Player_Death",
+      "tact_file": "RE9_SH_Player_Death.tact",
+      "description": "Long fading collapse pulse for player death.",
+      "trigger_description": "player death",
+      "preview_shortcut": "e",
+      "cooldown": 4.0
+    },
+    {
+      "key": "RE9_SH_Camera_Shake",
+      "tact_file": "RE9_SH_Camera_Shake.tact",
+      "description": "Short environmental shock on the torso.",
+      "trigger_description": "camera shake request",
+      "preview_shortcut": "f",
+      "cooldown": 0.55
+    },
+    {
+      "key": "RE9_SH_Add_Item",
+      "tact_file": "RE9_SH_Add_Item.tact",
+      "description": "Small chest and sleeve pickup confirmation.",
+      "trigger_description": "inventory add item",
+      "preview_shortcut": "g",
+      "cooldown": 0.25
+    },
+    {
+      "key": "RE9_SH_Reload_Mag_Grab",
+      "tact_file": "RE9_SH_Reload_Mag_Grab.tact",
+      "description": "Left sleeve and pouch tap for grabbing reload ammo.",
+      "trigger_description": "manual reload mag, shell, or bullet grab",
+      "preview_shortcut": "h",
+      "cooldown": 0.12
+    },
+    {
+      "key": "RE9_SH_Reload_Mag_Insert",
+      "tact_file": "RE9_SH_Reload_Mag_Insert.tact",
+      "description": "Firm support-hand insert click into the weapon.",
+      "trigger_description": "manual reload mag, shell, or bullet insert",
+      "preview_shortcut": "i",
+      "cooldown": 0.16
+    },
+    {
+      "key": "RE9_SH_Reload_Mag_Drop",
+      "tact_file": "RE9_SH_Reload_Mag_Drop.tact",
+      "description": "Low release pulse for magazine or shell drop.",
+      "trigger_description": "manual reload magazine or shell drop",
+      "preview_shortcut": "j",
+      "cooldown": 0.18
+    },
+    {
+      "key": "RE9_SH_Reload_Rack_Back",
+      "tact_file": "RE9_SH_Reload_Rack_Back.tact",
+      "description": "Support sleeve pull-back for slide, bolt, or pump action.",
+      "trigger_description": "manual rack or pump pulled back",
+      "preview_shortcut": "k",
+      "cooldown": 0.14
+    },
+    {
+      "key": "RE9_SH_Reload_Rack_Forward",
+      "tact_file": "RE9_SH_Reload_Rack_Forward.tact",
+      "description": "Support sleeve forward lock for slide, bolt, or pump action.",
+      "trigger_description": "manual rack or pump closes",
+      "preview_shortcut": "l",
+      "cooldown": 0.14
+    },
+    {
+      "key": "RE9_SH_Dry_Fire_Right",
+      "tact_file": "RE9_SH_Dry_Fire_Right.tact",
+      "description": "Tiny right sleeve trigger click for dry fire.",
+      "trigger_description": "dry trigger pull",
+      "preview_shortcut": "m",
+      "cooldown": 0.12
+    },
+    {
+      "key": "RE9_SH_Barrel_Close",
+      "tact_file": "RE9_SH_Barrel_Close.tact",
+      "description": "Short cylinder or barrel latch click.",
+      "trigger_description": "revolver cylinder or break action closes",
+      "preview_shortcut": "n",
+      "cooldown": 0.18
+    },
+    {
+      "key": "RE9_SH_Throwable_Equip",
+      "tact_file": "RE9_SH_Throwable_Equip.tact",
+      "description": "Chest slot and sleeve pulse when a throwable is equipped.",
+      "trigger_description": "throwable long-press equip",
+      "preview_shortcut": "o",
+      "cooldown": 0.35
+    },
+    {
+      "key": "RE9_SH_Throwable_Release",
+      "tact_file": "RE9_SH_Throwable_Release.tact",
+      "description": "Throwing-arm sweep and torso release for a thrown item.",
+      "trigger_description": "throwable release succeeds",
+      "preview_shortcut": "p",
+      "cooldown": 0.35
+    },
+    {
+      "key": "RE9_SH_Block_Stance",
+      "tact_file": "RE9_SH_Block_Stance.tact",
+      "description": "Subtle left forearm brace cue for block stance.",
+      "trigger_description": "manual block/parry pose becomes active",
+      "preview_shortcut": "y",
+      "cooldown": 0.65
+    },
+    {
+      "key": "RE9_SH_Block_Impact",
+      "tact_file": "RE9_SH_Block_Impact.tact",
+      "description": "Forearm and front torso impact while blocking.",
+      "trigger_description": "incoming hit while block pose is active",
+      "preview_shortcut": "r",
+      "cooldown": 0.28
+    },
+    {
+      "key": "RE9_SH_Parry_Success",
+      "tact_file": "RE9_SH_Parry_Success.tact",
+      "description": "Sharp successful parry snap across forearm and vest.",
+      "trigger_description": "native parry success event",
+      "preview_shortcut": "s",
+      "cooldown": 0.35
+    },
+    {
+      "key": "RE9_SH_Syringe_Ready",
+      "tact_file": "RE9_SH_Syringe_Ready.tact",
+      "description": "Right sleeve confirmation when the manual syringe is armed.",
+      "trigger_description": "optional external event: manual syringe spawns",
+      "preview_shortcut": "t",
+      "cooldown": 0.4
+    },
+    {
+      "key": "RE9_SH_Syringe_Zone",
+      "tact_file": "RE9_SH_Syringe_Zone.tact",
+      "description": "Small right sleeve alignment cue for syringe injection zone.",
+      "trigger_description": "optional external event: manual syringe enters valid injection zone",
+      "preview_shortcut": "u",
+      "cooldown": 0.2
+    },
+    {
+      "key": "RE9_SH_Syringe_Fail",
+      "tact_file": "RE9_SH_Syringe_Fail.tact",
+      "description": "Low right sleeve buzz for failed manual syringe use.",
+      "trigger_description": "optional external event: manual syringe use fails or no stock is available",
+      "preview_shortcut": "v",
+      "cooldown": 0.35
+    },
+    {
+      "key": "RE9_SH_Bike_Start",
+      "tact_file": "RE9_SH_Bike_Start.tact",
+      "description": "Low torso and sleeve pulse when bike mode starts.",
+      "trigger_description": "bike first-person mode becomes active",
+      "preview_shortcut": "w",
+      "cooldown": 1.0
+    },
+    {
+      "key": "RE9_SH_Bike_Rumble",
+      "tact_file": "RE9_SH_Bike_Rumble.tact",
+      "description": "Short low torso engine rumble tick while bike mode is active.",
+      "trigger_description": "periodic bike mode rumble",
+      "preview_shortcut": "x",
+      "cooldown": 0.55
+    }
+  ]
+}
